@@ -1,0 +1,46 @@
+body
+{
+	width: 150px;
+	
+
+	background: repeating-linear-gradient(
+	  45deg,
+	  #d8f0c3,
+	  #d8f0c3 10px,
+	  #b9e295 10px,
+	  #b9e295 20px
+	);
+}
+
+p
+{
+	text-align: center;
+	font-weight: bold;
+}
+
+footer{
+	background-color: rgba(0, 0, 0, 0.2);
+	margin: 5px 0px 0px 0px;
+}
+
+footer:hover
+{
+	background-color: rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+}
+
+footer p
+{
+	margin: 5px 0px 5px 0px;
+}
+
+header p
+{
+	border-bottom: solid 1px black;
+	margin-bottom: 0px;
+}
+
+header
+{
+	margin-bottom: 5px;
+}
